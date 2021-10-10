@@ -1,12 +1,21 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const grid = document.querySelector('.grid')
-  const flagsLeft = document.querySelector('#flags-left')
-  const result = document.querySelector('#result')
-  let width = 10
-  let bombAmount = 20
-  let flags = 0
-  let squares = []
-  let isGameOver = false
+
+var width = 10;
+var bombAmount = 20;
+var flags = 0;
+var squares = [];
+var isGameOver = false;
+var grid;
+var flagsLeft;
+var result;
+
+document.addEventListener("DOMContentLoaded", () => {
+  grid = document.querySelector(".grid");
+  flagsLeft = document.querySelector("#flags-left");
+  result = document.querySelector("#result");
+
+  createBoard();
+})
+
 
 /*
   // ## Function 1 ## create Board 
@@ -193,4 +202,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   */
-})
+

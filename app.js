@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let squares = []
   let isGameOver = false
 
+/*
   // ## Function 1 ## create Board 
   function createBoard() {
     flagsLeft.innerHTML = bombAmount
@@ -191,4 +192,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   }
+  */
 })

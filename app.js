@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let squares = []
   let isGameOver = false
 
-  //create Board
+  // ## Function 1 ## create Board 
   function createBoard() {
     flagsLeft.innerHTML = bombAmount
 
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   createBoard()     // call function
 
-  //add Flag with right click
+  // ## Function 2 ## add Flag with right click
   function addFlag(square) {
     if (isGameOver) return
     if (!square.classList.contains('checked') && (flags < bombAmount)) {
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  //click on square actions
+  // ## Function 3 ## click on square actions
   function click(square) {
     let currentId = square.id
     if (isGameOver) return
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  //check neighboring squares once square is clicked
+  // ## Function 4 ## check neighboring squares once square is clicked
   function checkSquare(square, currentId) {
     const isLeftEdge = (currentId % width === 0)
     const isRightEdge = (currentId % width === width -1)
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 10)
   }
 
-  //game over
+// ## Function 5 ## game over
   function gameOver(square) {
     result.innerHTML = 'BOOM! Game Over!'
     isGameOver = true
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 
-  //check for win
+// ## Function 6 ## check for win
   function checkForWin() {
     ///simplified win argument
   let matches = 0

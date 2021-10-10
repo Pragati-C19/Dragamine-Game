@@ -18,4 +18,4 @@ function click(square) {
       checkSquare(square, currentId)
     }
     square.classList.add('checked')
-  }
+}

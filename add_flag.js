@@ -14,4 +14,4 @@ function addFlag(square) {
         flagsLeft.innerHTML = bombAmount- flags
       }
     }
-  }
+}

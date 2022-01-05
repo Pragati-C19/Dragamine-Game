@@ -1,17 +1,17 @@
-.container {
+
+
+.cont1 {
   width: 500px;
   align-content: center;
 }
 
-.grid {
-  height: 400px;
-  width: 400px;
+.gri1 {
   display: flex;
   flex-wrap: wrap;
   background-color: #dcd6bc;
   margin-left: 50px;
   margin-top: 20px;
-  border: 10px solid #dcd6bc;
+  border: 25px solid #dcd6bc;
   margin-bottom: 10px;
 }
 
@@ -55,7 +55,7 @@ div {
 }
 
 .three {
-  color: #57da59;
+  color: #52a754;
 }
 
 .four{
@@ -64,5 +64,5 @@ div {
 
 #result {
   margin-top: 5px;
-  color: #e76346;
+  color: #fa3307;
 }

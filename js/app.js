@@ -7,9 +7,10 @@ var isGameOver = false;
 var grid;
 var flagsLeft;
 var result;
+var interval;
 
 document.addEventListener("DOMContentLoaded", () => {
-  grid = document.querySelector(".grid");
+  grid = document.querySelector(".gri1");
   flagsLeft = document.querySelector("#flags-left");
   result = document.querySelector("#result");
 

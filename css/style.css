@@ -1,4 +1,9 @@
-
+.container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
 
 .cont1 {
   width: 500px;

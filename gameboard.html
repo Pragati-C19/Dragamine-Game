@@ -2,9 +2,12 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <title>Dragamine</title>
+  <title>GameBoard | Dragamine</title>
+  <link rel="stylesheet" href="./css/style.css"></link>
   <link rel="stylesheet" href="./css/header.css"></link>
-
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 		<!-- Bootstrap CSS -->
 		<link
 			rel="stylesheet"
@@ -31,20 +34,33 @@
 					alt="Dragamine Logo"
 				/>
 				Dragamine
-	    </a>
-        <img
-					src="./img/sound4.png"
-					class="d-inline-block align-top logo"
-					alt="Dragamine Logo"
-		/>
+			</a>
+      <div>
+        <p class="navbar-brand mb-0 h1">Timer</p>
+        <p class="navbar-brand mb-0 h1" id="min">00</p>
+        <p class="navbar-brand mb-0 h1">:</p>
+        <p class="navbar-brand mb-0 h1" id="sec">00</p>
+      </div>
+      <p class="navbar-brand mb-0 h1">Flags left: <span id='flags-left'></span></p>
     </div>
   </nav>
 
-  <div class="d-grid gap-2 col-6 mx-auto">
-    <a href="./gameboard.html" class="btn btn-success">New Game</a>
-    <a href="./gameboard.html" class="btn btn-success">Resume</a>
+  <div class="container">
+      <div class="cont1">
+        <div class="gri1"></div>
+        <button type="button" class="btn btn-success" id="Start">Start</button>
+        <div id="result"></div>
+      </div>
   </div>
   
+  <script src="./js/app.js" type="text/javascript"></script>
+  <script src="./js/create_board.js" type="text/javascript"></script>
+  <script src="./js/add_flag.js" type="text/javascript"></script>
+  <script src="./js/click_square.js" type="text/javascript"></script>
+  <script src="./js/check_square.js" type="text/javascript"></script>
+  <script src="./js/game_over.js" type="text/javascript"></script>
+  <script src="./js/check_if_won.js" type="text/javascript"></script>
+  <script src="./js/timer.js" type="text/javascript"></script>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script

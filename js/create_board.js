@@ -47,5 +47,14 @@ function createBoard() {
         squares[i].setAttribute('data', total)
       }
     }
+
+    timeInterval = setInterval(()=>{
+                    timerSeconds++;
+                    seconds = timerSeconds % 60;
+                    minutes = Math.floor(timerSeconds / 60);
+                    console.log(seconds)
+                    sec.innerHTML=seconds
+                    min.innerHTML=minutes
+                  },1000);
 }
 createBoard()     // call function

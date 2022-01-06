@@ -8,8 +8,8 @@ var grid;
 var flagsLeft;
 var result;
 var interval;
-var timeInterval;
-var timeSeconds=0;
+var timerInterval;
+var timerSeconds=0;
 var minutes;
 var seconds;
 
@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
   grid = document.querySelector(".gri1");
   flagsLeft = document.querySelector("#flags-left");
   result = document.querySelector("#result");
-  minutes = document.querySelector("#minutes");
-  seconds = document.querySelector("#seconds");
-  
+  minutes = document.querySelector("#min");
+  seconds = document.querySelector("#sec");
+
   createBoard();
 })

@@ -52,7 +52,7 @@ function createBoard() {
                     timerSeconds++;
                     seconds = timerSeconds % 60;
                     minutes = Math.floor(timerSeconds / 60);
-                    console.log(seconds)
+                    //console.log(seconds)
                     sec.innerHTML=seconds
                     min.innerHTML=minutes
                   },1000);

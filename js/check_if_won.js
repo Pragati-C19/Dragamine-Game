@@ -11,4 +11,5 @@ function checkForWin() {
         isGameOver = true
       }
     }
+  
 }

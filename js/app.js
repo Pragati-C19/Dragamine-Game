@@ -12,6 +12,7 @@ var timerInterval;
 var timerSeconds=0;
 var minutes;
 var seconds;
+var start;
 
 document.addEventListener("DOMContentLoaded", () => {
   grid = document.querySelector(".gri1");
@@ -19,6 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
   result = document.querySelector("#result");
   minutes = document.querySelector("#min");
   seconds = document.querySelector("#sec");
+  //start = document.querySelector("#Start");
+  //start.addEventListener("onclick", createBoard());
 
-  createBoard();
+  createBoard()
 })

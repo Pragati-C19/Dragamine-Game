@@ -55,6 +55,15 @@ function createBoard() {
                     //console.log(seconds)
                     sec.innerHTML=seconds
                     min.innerHTML=minutes
+
+// you have to add clearInterval here not in game_over.js if we use clearInterval in game_over.js or in check_if_won.js it gives infinite timercount
+                    if(isGameOver == true){
+                      clearInterval(timerInterval);
+                      console.log(timerSeconds)
+                      timerSeconds = 0;
+                      sec.innerHTML= timerSeconds
+                      min.innerHTML= timerSeconds
+                    }
                   },1000);
 }
 createBoard()     // call function

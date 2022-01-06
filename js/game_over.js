@@ -10,13 +10,4 @@ function gameOver(square) {
         square.classList.add('checked')
       }
     })
-
-    if(isGameOver==true){
-      clearInterval(timerInterval)
-      console.log(timerSeconds)
-      timerSeconds = 0;
-      sec.innerHTML= timerSeconds
-      min.innerHTML= timerSeconds
-    }
-    
 }

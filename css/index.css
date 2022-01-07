@@ -1,12 +1,20 @@
 body{
-    background-image: url("../img/homebg_whith_bluepockemon.jpg");
+    background-image: url("../img/dragon_background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .d-grid{
-    text-align: right;
-    margin-top: 400px;
-    margin-right: 100px;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 200px;
+}
+
+#newgamebutton{
+    padding: 20px 100px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px 0px 25px 0px;
 }

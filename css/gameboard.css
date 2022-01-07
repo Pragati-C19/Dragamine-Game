@@ -1,3 +1,11 @@
+
+body{
+  background-image: url("../img/merge_greendragon.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
 .container{
   justify-content: center;
   align-items: center;
@@ -16,7 +24,7 @@
   background-color: #dcd6bc;
   margin-left: 50px;
   margin-top: 20px;
-  border: 25px solid #dcd6bc;
+  border: 25px solid #6f861a;
   margin-bottom: 10px;
 }
 

@@ -71,21 +71,27 @@ function createBoard() {
     }
   }
 
+  const getTwoDigitStr = (num) => {
+    //For adding 0 befor one digit number
+    if (num <= 9) return `0${num}`;
+    return num;
+  };
+
   timeInterval = setInterval(() => {
     timerSeconds++;
     seconds = timerSeconds % 60;
     minutes = Math.floor(timerSeconds / 60);
     //console.log(seconds)
-    sec.innerHTML = seconds;
-    min.innerHTML = minutes;
+    sec.innerHTML = getTwoDigitStr(seconds);
+    min.innerHTML = getTwoDigitStr(minutes);
 
     // you have to add clearInterval here not in game_over.js if we use clearInterval in game_over.js or in check_if_won.js it gives infinite timercount
     if (isGameOver == true) {
       clearInterval(timerInterval);
-      console.log(timerSeconds);
+      //console.log(timerSeconds);
       timerSeconds = 0;
-      sec.innerHTML = timerSeconds;
-      min.innerHTML = timerSeconds;
+      sec.innerHTML = getTwoDigitStr(timerSeconds);
+      min.innerHTML = getTwoDigitStr(timerSeconds);
     }
   }, 1000);
 }

@@ -1,0 +1,12 @@
+body{
+    background-image: url("../img/homebg_whith_bluepockemon.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.d-grid{
+    text-align: right;
+    margin-top: 400px;
+    margin-right: 100px;
+}

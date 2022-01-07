@@ -1,4 +1,3 @@
-
 var width = 10;
 var bombAmount = 20;
 var flags = 0;
@@ -9,10 +8,13 @@ var flagsLeft;
 var result;
 var interval;
 var timerInterval;
-var timerSeconds=0;
+var timerSeconds = 0;
 var minutes;
 var seconds;
 var start;
+var resumeButton;
+var stopButton;
+var timeStop = true;
 
 document.addEventListener("DOMContentLoaded", () => {
   grid = document.querySelector(".gri1");
@@ -20,8 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
   result = document.querySelector("#result");
   minutes = document.querySelector("#min");
   seconds = document.querySelector("#sec");
+  resumeButton = document.querySelector("#resumebutton");
+  stopButton = document.querySelector("#stopbutton");
   //start = document.querySelector("#Start");
   //start.addEventListener("onclick", createBoard());
-
-  createBoard()
-})
+  createBoard();
+});

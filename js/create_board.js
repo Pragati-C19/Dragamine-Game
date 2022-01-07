@@ -71,6 +71,8 @@ function createBoard() {
     }
   }
 
+  timerCycle();
+  /* //FIXME: if timer system not working then remove this comment
   const getTwoDigitStr = (num) => {
     //For adding 0 befor one digit number
     if (num <= 9) return `0${num}`;
@@ -93,6 +95,6 @@ function createBoard() {
       sec.innerHTML = getTwoDigitStr(timerSeconds);
       min.innerHTML = getTwoDigitStr(timerSeconds);
     }
-  }, 1000);
+  }, 1000); */
 }
 createBoard(); // call function

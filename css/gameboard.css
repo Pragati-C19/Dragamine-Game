@@ -40,6 +40,9 @@ body{
   align-items: center;
   display: flex;
   margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .cont1 {
@@ -57,12 +60,6 @@ body{
   margin-bottom: 10px;
 }
 
-div {
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-
-}
 .valid {
   height: 40px;
   width: 40px;

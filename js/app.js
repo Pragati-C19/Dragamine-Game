@@ -15,6 +15,9 @@ var start;
 var resumeButton;
 var stopButton;
 var timeStop = true;
+var windowWidth;
+var windowWidthError;
+var closeButton;
 
 document.addEventListener("DOMContentLoaded", () => {
   grid = document.querySelector(".gri1");
@@ -24,12 +27,24 @@ document.addEventListener("DOMContentLoaded", () => {
   seconds = document.querySelector("#sec");
   resumeButton = document.querySelector("#resumebutton");
   stopButton = document.querySelector("#stopbutton");
+  closeButton = document.querySelector("#closebutton");
+  //windowWidthError = document.querySelector("#windowWidthError");
 
   $("#resumebutton").hide();
   resumeButton.addEventListener("click", resumeTimer);
   stopButton.addEventListener("click", stopTimer);
-
   //start = document.querySelector("#Start");
   //start.addEventListener("click", createBoard);
   createBoard();
+
+  //if window width is less then it shows model and page refresh after click on close
+  //console.log(windowWidth);
+  windowWidth = window.innerWidth;
+  if (windowWidth <= 720) {
+    $("#windowWidthError").modal("show");
+    closeButton.addEventListener("click", () => {
+      window.location = "#";
+      window.location.reload();
+    });
+  }
 });

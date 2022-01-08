@@ -47,4 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.reload();
     });
   }
+
+  $(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 });

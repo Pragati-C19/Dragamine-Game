@@ -30,7 +30,7 @@ function resumeTimer() {
     timeStop = false;
     timerCycle();
     $("#resumebutton").hide(); //to hide and show buttons alternativaly
-    $("stopbutton").show();
+    $("#stopbutton").show();
   }
 }
 
@@ -38,5 +38,5 @@ function stopTimer() {
   timeStop = true;
   clearInterval(timeInterval);
   $("#resumebutton").show();
-  $("stopbutton").hide();
+  $("#stopbutton").hide();
 }

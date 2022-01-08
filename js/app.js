@@ -25,10 +25,11 @@ document.addEventListener("DOMContentLoaded", () => {
   resumeButton = document.querySelector("#resumebutton");
   stopButton = document.querySelector("#stopbutton");
 
+  $("#resumebutton").hide();
   resumeButton.addEventListener("click", resumeTimer);
   stopButton.addEventListener("click", stopTimer);
 
   //start = document.querySelector("#Start");
-  //start.addEventListener("onclick", createBoard());
+  //start.addEventListener("click", createBoard);
   createBoard();
 });

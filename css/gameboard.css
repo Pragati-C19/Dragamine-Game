@@ -6,23 +6,35 @@ body{
   background-size: cover;
 }
 
-.buttons{
+#stopbutton{
   text-align: center;
-  margin-left: 55px;
+  margin-left: 80px;
+  padding: 10px 60px;
   border-radius: 25px;
 }
 
-#stopbutton{
+#resumebutton{
+  text-align: center;
+  margin-left: 90px;
   padding: 10px 60px;
+  border-radius: 25px;
 }
 
-#resumebutton{
-  padding: 10px 60px;
+#restartbutton{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 10px 50px;
+  border-radius: 0px 100px 0px 0px;
 }
 
 #backbutton{
-  padding: 10px 50px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 60px;
+  border-radius: 100px 0px 0px 0px;
 }
+
 .container{
   justify-content: center;
   align-items: center;

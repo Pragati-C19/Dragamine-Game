@@ -18,7 +18,7 @@ var timeStop = true;
 
 document.addEventListener("DOMContentLoaded", () => {
   grid = document.querySelector(".gri1");
-  flagsLeft = document.querySelector("#flags-left");
+  flagsLeft = document.querySelector("#flagsleft");
   result = document.querySelector("#result");
   minutes = document.querySelector("#min");
   seconds = document.querySelector("#sec");

@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
   createBoard();
 
   //if window width is less then it shows model and page refresh after click on close
-  //console.log(windowWidth);
   windowWidth = window.innerWidth;
+  //console.log(windowWidth);
   if (windowWidth <= 720) {
     $("#windowWidthError").modal("show");
     closeButton.addEventListener("click", () => {

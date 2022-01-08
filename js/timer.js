@@ -24,14 +24,19 @@ function timerCycle() {
   }, 1000);
 }
 
-// resumeTimer and stopTimer function i used for testing
+// resumeTimer and stopTimer function I used for testing - now its working properly
 function resumeTimer() {
   if (timeStop == true) {
     timeStop = false;
     timerCycle();
+    $("#resumebutton").hide(); //to hide and show buttons alternativaly
+    $("stopbutton").show();
   }
 }
 
 function stopTimer() {
+  timeStop = true;
   clearInterval(timeInterval);
+  $("#resumebutton").show();
+  $("stopbutton").hide();
 }

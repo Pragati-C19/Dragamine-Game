@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
   seconds = document.querySelector("#sec");
   resumeButton = document.querySelector("#resumebutton");
   stopButton = document.querySelector("#stopbutton");
+
+  resumeButton.addEventListener("click", resumeTimer);
+  stopButton.addEventListener("click", stopTimer);
+
   //start = document.querySelector("#Start");
   //start.addEventListener("onclick", createBoard());
   createBoard();

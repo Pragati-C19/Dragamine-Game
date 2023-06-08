@@ -23,7 +23,7 @@ This project was developed using HTML, CSS, and JavaScript, with a focus on lear
 ## __Screenshots__
 <br/>
 
-### - *the home page of the game 🏠*
+**_- The home page of the game 🏠_**
 <br/>
 
 ![Home Page](screenshots/home-page.jpg)
@@ -31,7 +31,7 @@ This project was developed using HTML, CSS, and JavaScript, with a focus on lear
 
 <br/>
 
-### - *The initial state of the game board 😎*
+**_- The initial state of the game board 😎_**
 <br/>
 
 ![Initial Stage of Game](screenshots/initial-stage-of-game.jpg)
@@ -39,7 +39,7 @@ This project was developed using HTML, CSS, and JavaScript, with a focus on lear
 
 <br/>
 
-### - *The demonstrating the flagging feature 🚩*
+**_- The demonstrating the flagging feature 🚩_**
 <br/>
 
 ![Flag Feature](screenshots/flag-feature.jpg)
@@ -47,7 +47,7 @@ This project was developed using HTML, CSS, and JavaScript, with a focus on lear
 
 <br/>
 
-### - *The process of revealing a cell 💥*
+**_- The process of revealing a cell 💥_**
 <br/>
 
 ![Revealing Cell](screenshots/revealing-cell.jpg)
@@ -55,7 +55,7 @@ This project was developed using HTML, CSS, and JavaScript, with a focus on lear
 
 <br/>
 
-### - *The moment when the game is won 🥳*
+**_- The moment when the game is won 🥳_**
 <br/>
 
 ![Won the Game](screenshots/win-the-game.jpg)
@@ -97,7 +97,7 @@ Feel free to choose the method that suits you best for accessing and playing Dra
 
 <br/>
 
-## __Tech Stack__
+## __Vanilla Tech Stack__
 <br/>
 
 Dragamine was developed using the following technologies:
@@ -121,7 +121,4 @@ Dragamine was developed as a learning project to gain practical experience with 
 
 If you have any questions, suggestions, or feedback, please feel free to contact the project maintainer at pragatichothe@gmail.com
 
-<br/>
-
-_...with ❤️ Pragati_C19_
 
